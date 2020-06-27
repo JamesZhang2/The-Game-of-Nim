@@ -93,7 +93,7 @@ while allStones != 0:
     else:
         # Player's Turn
         pile = int(input("Which pile do you want to take stones from? ")) - 1
-        while pile < 0 or pile > 4:
+        while pile < 0 or pile > 3:
             print("There are only 4 piles of stones.")
             pile = int(input("Which pile do you want to take stones from? ")) - 1
         while stone[pile] == 0:
